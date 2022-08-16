@@ -13,7 +13,159 @@
 
 .container {
     width: 80%;
-    margin: 50px auto;
+    margin: 60px auto;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 65px;
+    color: var(--main-color);
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 55px;
+    color: var(--main-color);
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 45px;
+    color: var(--main-color);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: var(--main-color);
+}
+
+.secondery {
+    color: var(--secondery-color);
+}
+
+button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--button-color);
+    color: white;
+    margin: 25px 0px;
 }
 
 /* common css end */
+
+/* navigation CSS start */
+header {
+    margin-top: 100px 0px 50px;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-text {
+    margin-right: 70px;
+}
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* navigation CSS end */
+
+/* main banner CSS start */
+.main-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* main banner CSS end */
+
+/* logos CSS start */
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 40px 0px;
+    /* margin: 30px 0px; */
+}
+
+/* logos CSS end */
+
+/* collections CSS start */
+.collection-head {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.product {
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+.product img {
+    width: 100%;
+}
+
+/* collections CSS end */
+
+/* featured CSS start */
+.featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-text {
+    margin-left: 70px;
+}
+
+/* featured CSS end */
+
+/* footer CSS start */
+footer {
+    text-align: center;
+    padding: 70px 0px;
+    background-color: rgb(19 19 60);
+}
+
+.foot-head,
+.icons {
+    color: white;
+}
+
+.foot-text {
+    color: white;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.icons i {
+    font-size: 20px;
+    background-color: rgba(181, 179, 179, 0.709);
+    padding: 8px;
+    border-radius: 50px;
+    margin: 15px 8px;
+}
+
+/* main banner CSS end */
