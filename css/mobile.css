@@ -1,0 +1,144 @@
+@media only screen and (max-width: 576px) {
+
+    h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 20px;
+        margin: 15px 0px;
+    }
+
+    /* common css end */
+
+    /* navigation CSS start */
+    header {
+        margin: 10px 0px;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+    nav .logo {
+        order: 2;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .manubar {
+        order: 1;
+        display: block;
+    }
+
+    .cart {
+        order: 3;
+    }
+
+    .manubar:hover .links {
+        display: block;
+    }
+
+    /* navigation CSS end */
+
+    /* main banner CSS start */
+    .main-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-banner img {
+        order: 1;
+        width: 70%;
+    }
+
+    .head-text {
+        order: 2;
+    }
+
+    /* main banner CSS end */
+
+    /* logos CSS start */
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* logos CSS end */
+
+    /* collections CSS start */
+    .collections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* collections CSS end */
+
+    /* featured CSS start */
+    .featured {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured-text {
+        margin-left: 0px;
+        order: 1;
+    }
+
+    .featured img {
+        order: 2;
+    }
+
+    /* featured CSS end */
+
+    /* footer CSS start */
+    footer {
+        text-align: center;
+        padding: 70px 0px;
+        background-color: rgb(19 19 60);
+    }
+
+    .foot-head,
+    .icons {
+        color: white;
+    }
+
+    .foot-text {
+        color: white;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .icons i {
+        font-size: 18px;
+        background-color: rgb(199 198 198 / 31%);
+        padding: 8px;
+        border-radius: 50px;
+        margin: 15px 8px;
+    }
+
+}

@@ -69,7 +69,7 @@ button {
 
 /* navigation CSS start */
 header {
-    margin-top: 100px 0px 50px;
+    margin: 70px 0px 50px;
 }
 
 nav {
@@ -77,6 +77,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.manubar {
+    display: none;
 }
 
 .head-text {
