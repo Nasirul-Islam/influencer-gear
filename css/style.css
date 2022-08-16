@@ -1,0 +1,19 @@
+/* common css start */
+:root {
+    --main-color: black;
+    --secondery-color: gray;
+    --button-color: rgb(246, 75, 103);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+/* common css end */
