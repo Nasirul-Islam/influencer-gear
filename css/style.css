@@ -9,6 +9,8 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -29,9 +31,16 @@ h2 {
 }
 
 h3 {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 50px;
     color: var(--main-color);
+}
+
+h4 {
+    font-size: 25px;
+    line-height: 40px;
+    color: var(--main-color);
+    font-weight: 400;
 }
 
 p {
@@ -119,12 +128,24 @@ nav {
 }
 
 .product {
-    border: 1px solid gray;
-    padding: 12px;
+    padding: 16px;
+    box-shadow: 2px 2px 20px #b2b0b0;
 }
 
 .product img {
     width: 100%;
+}
+
+.rating i {
+    color: goldenrod;
+    font-size: 15px;
+}
+
+.rating span {
+    color: gray;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
 }
 
 /* collections CSS end */
@@ -161,8 +182,8 @@ footer {
 }
 
 .icons i {
-    font-size: 20px;
-    background-color: rgba(181, 179, 179, 0.709);
+    font-size: 18px;
+    background-color: rgb(199 198 198 / 31%);
     padding: 8px;
     border-radius: 50px;
     margin: 15px 8px;
